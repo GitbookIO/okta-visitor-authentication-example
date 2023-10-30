@@ -36,7 +36,7 @@ app.get('/protected', oidc.ensureAuthenticated(), (req, res) => {
 });
 
 oidc.on('ready', () => {
-  app.listen(3000, () => console.log('app started'));
+  app.listen(8080, () => console.log('app started'));
 });
 
 oidc.on('error', err => {

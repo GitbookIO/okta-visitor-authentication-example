@@ -19,7 +19,7 @@ app.use(session({
 }));
 app.use(oidc.router);
 
-const jwtSigningKey = "8e890ca1-b16e-499f-j0rd-68ea7d0de55q"
+const jwtSigningKey = "gitbook signing key"
 
 app.get('/', (req, res) => {
   if (req.userContext) {

@@ -8,7 +8,7 @@ const oidc = new ExpressOIDC({
   issuer: 'issuer URL from Okta, example: https://trial-9890932.okta.com/oauth2/default',
   client_id: 'client id of your Okta app',
   client_secret: 'client secret of your okta app',
-  appBaseUrl: 'http://localhost:3000',
+  appBaseUrl: 'http://localhost:8080',
   scope: 'openid profile'
 });
 
